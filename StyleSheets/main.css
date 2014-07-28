@@ -8,9 +8,11 @@ h1{
   font-weight: lighter;
   margin: 0;
   transition: color .1s;
+  transition: 1 ease;
 }
 h1:hover{
-  color: white;
+  color: #FFD6D2;
+  font-style: italic;
 }
 .title{
   /*border-bottom: 2px solid #f1706c;*/
@@ -79,6 +81,7 @@ h2{
   height: 150px;
   margin-left: 2px;
   opacity: .5;
+  transition: 1s ease;
 }
 .picroll img:hover{
   opacity: 1;
@@ -108,5 +111,5 @@ h2{
   text-decoration: none;
 }
 .footer ul li a:hover{
- font-size: 18px;
+ background-color: #FFD6D2;
 }
